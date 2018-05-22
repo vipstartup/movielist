@@ -1,6 +1,6 @@
 // API 
 
-const HY_HOST = 'https://hongye567.github.io';
+const HY_HOST = 'https://vipstartup.github.io';
 const DB_HOST = 'https://api.douban.com';
 
 export const Honye = {

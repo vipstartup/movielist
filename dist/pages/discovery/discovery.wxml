@@ -14,7 +14,7 @@
   
   <view class='content'>
     <scroll-view scroll-y enable-back-to-top>
-      <swiper class='banner'
+      <!-- <swiper class='banner'
         indicator-dots
         autoplay
         indicator-active-color="#fff"
@@ -24,16 +24,16 @@
             <image data-index='{{index}}' src="{{item.image}}" class="slide-image"  bindtap='onBannerTap'/>
           </swiper-item>
         </block>
-      </swiper>
+      </swiper> -->
 
       <view class="kind-container">
-        <navigator class='item-container' hover-class='hover-bg'
+        <!-- <navigator class='item-container' hover-class='hover-bg'
           url='/pages/classification/index'
         >
           <template is="circle" 
             data="{{imgUrl:'/assets/images/discover_classify_group_icon.png',title:'分类查找'}}"
           />
-        </navigator>
+        </navigator> -->
         <navigator class='item-container' hover-class='hover-bg'
           url='/pages/card/card'
         >

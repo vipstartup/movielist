@@ -85,7 +85,7 @@ Page({
         if (!item.openType)
           if(index==5) {
             wx.setClipboardData({
-              data: 'https://github.com/Hongye567/weapp-mark',
+              data: 'https://github.com/vipstartup/weapp-mark',
               success: res => {
                 wx.showToast({
                   title: '已复制到剪贴板',
